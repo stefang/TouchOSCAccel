@@ -1,0 +1,10 @@
+Example Processing code reading the Accelerometer output from TouchOSC ( http://hexler.net/software/touchosc ) for the iPhone / iPad.
+
+Connect the computer and the phone to a network then run the sketch on the computer. You should see something like the following in the Processing console...
+
+### [2010/11/9 11:21:15] PROCESS @ UdpClient.openSocket udp socket initialized.
+### [2010/11/9 11:21:16] PROCESS @ UdpServer.start() new Unicast DatagramSocket created @ port 8000
+### [2010/11/9 11:21:16] PROCESS @ UdpServer.run() UdpServer is running @ 8000
+### [2010/11/9 11:21:16] INFO @ OscP5 is running. you (192.168.1.119) are listening @ port 8000
+
+Run TouchOSC on your phone and go in to the settings and choose Network and type in the IP address listed in YOUR console and make sure the Accelerometer is switched on and press "Done" and you should see the block on the screen move in concert with you moving the phone.
